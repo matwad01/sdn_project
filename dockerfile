@@ -4,7 +4,7 @@ MAINTAINER Mateusz Wadas
 # Install packages (this is generic version with all required extensions).
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
-  apt-get -y install supervisor git curl unzip mininet netcat
+  apt-get -y install supervisor git curl unzip mininet netcat ftpd
 
 # Configure open ssh
 # See: http://docs.docker.com/examples/running_ssh_service/ for more details
