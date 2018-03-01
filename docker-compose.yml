@@ -4,8 +4,8 @@ services:
     build:
       context: .
       args:
-        user: iwaseyusuke
-    image: iwaseyusuke/mininet
+        user: matwad01
+    image: matwad01/sdn_project
     tty: true
     network_mode: "bridge"
     privileged: true
